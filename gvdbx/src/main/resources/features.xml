@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.3.0"	name="${project.artifactId}-${project.version}">
+	<repository>mvn:it.greenvulcano.gvesb/gvengine-features/${gvesb.version}/xml/features</repository>	
+		
+	<feature name="gvdbx" description="GreenVulcano Database plugin" version="${project.version}">		  
+		<feature>jdbc</feature>		
+		<feature>gvengine</feature>
+		<bundle start-level="96">mvn:it.greenvulcano.gvesb.adapter/gvdbx/${project.version}</bundle>		
+	</feature>
+	
+</features>
