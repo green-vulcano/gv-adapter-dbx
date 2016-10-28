@@ -1,2 +1,4 @@
 # gv-adapter-dbx
-GreenVulcano eXtended DataBase Adapter
+GreenVulcano ESB database extension
+
+**gvdbx** is a GVESB extension to perform basic CRUD ops on a DB, tipically relational, accessibile as DataSource by JNDI.   
